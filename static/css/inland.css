@@ -38,8 +38,7 @@ p.ol{margin:0 0 0 15px;}
 /* Layout IDs */
 #header{position:relative;}
 
-/* Removed float:left */
-#sitetitle{margin:30px 0 10px 30px;}
+#sitetitle{float:left; margin:30px 0 10px 30px;}
 #sitetitle h1 {font-size:40px;color:#777;margin:0;padding:0;}
 #header-image{height:300px;margin:0;padding:0;}
 #content{padding:15px 30px;background-color:#fafafa;}
@@ -123,10 +122,10 @@ img.alignleft,img.aligncenter,img.alignright{background:#fff;padding:4px;margin-
 .nivo-caption{position:absolute;left:0;bottom:0;font-size:120%;font-weight:700;background:#fafafa!important;opacity:0.8;width:50%;z-index:8;}
 .nivo-caption p{padding:5px;margin:0;}
 .nivo-caption a{display:inline!important;}
-.nivo-caption { 
+.nivo-caption {
        margin-left:100px; margin-bottom:-35px;
-       width: 700px; 
-       height: 25px; 
+       width: 700px;
+       height: 25px;
         /* left: -200px;same as the width */
  }
 /*.nivo-html-caption{display:none;}*/
